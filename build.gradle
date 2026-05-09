@@ -1,0 +1,42 @@
+plugins {
+    id("java-library")
+    id("net.neoforged.gradle.userdev") version "7.1.26"
+}
+
+base {
+    archivesName = "smartlogistics"
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    mavenCentral()
+    maven { url = "https://maven.createmod.net" }
+    maven { url = "https://maven.tterrag.com" }
+}
+
+dependencies {
+    implementation "net.neoforged:neoforge:21.1.228"
+    implementation ("com.simibubi.create:create-1.21.1:6.0.10-280") {
+        transitive = false
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+    options.release = 21
+}
+
+jar {
+    manifest {
+        attributes([
+            "Specification-Title"     : "smartlogistics",
+            "Specification-Vendor"    : "smartlogistics",
+            "Specification-Version"   : "1",
+            "Implementation-Title"    : project.name,
+            "Implementation-Version"  : project.version,
+            "Implementation-Vendor"   : "smartlogistics",
+            "FMLModType"              : "MOD"
+        ])
+    }
+}

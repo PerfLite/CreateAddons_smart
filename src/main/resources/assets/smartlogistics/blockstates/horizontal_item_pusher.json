@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,powered=false": { "model": "smartlogistics:block/horizontal_item_pusher_north" },
+    "facing=east,powered=false": { "model": "smartlogistics:block/horizontal_item_pusher_east" },
+    "facing=south,powered=false": { "model": "smartlogistics:block/horizontal_item_pusher_south" },
+    "facing=west,powered=false": { "model": "smartlogistics:block/horizontal_item_pusher_west" },
+    "facing=north,powered=true": { "model": "smartlogistics:block/horizontal_item_pusher_north_powered" },
+    "facing=east,powered=true": { "model": "smartlogistics:block/horizontal_item_pusher_east_powered" },
+    "facing=south,powered=true": { "model": "smartlogistics:block/horizontal_item_pusher_south_powered" },
+    "facing=west,powered=true": { "model": "smartlogistics:block/horizontal_item_pusher_west_powered" }
+  }
+}

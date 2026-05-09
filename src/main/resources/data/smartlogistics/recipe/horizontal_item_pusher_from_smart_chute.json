@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create:smart_chute"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "smartlogistics:horizontal_item_pusher"
+  }
+}

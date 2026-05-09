@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "P": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "create:chute"
+    }
+  },
+  "pattern": [
+    "III",
+    " S ",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "smartlogistics:horizontal_item_pusher"
+  }
+}

@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+build/
+gradle/
+runs/
+*.iml
+*.ipr
+*.iws
+gradlew
+gradlew.bat
+.DS_Store
+Thumbs.db

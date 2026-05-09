@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "smartlogistics:block/horizontal_chute",
+    "north": "smartlogistics:block/horizontal_chute_top",
+    "south": "smartlogistics:block/horizontal_chute_top",
+    "east": "smartlogistics:block/horizontal_chute",
+    "west": "smartlogistics:block/horizontal_chute",
+    "up": "smartlogistics:block/horizontal_chute",
+    "down": "smartlogistics:block/horizontal_chute"
+  }
+}

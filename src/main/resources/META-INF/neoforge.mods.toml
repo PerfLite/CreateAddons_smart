@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "smartlogistics"
+displayName = "Create: Smart Logistics"
+version = "1.0"
+authors = "PerfLite"
+description = "A mod that adds horizontal movement of objects."
+
+[[dependencies.smartlogistics]]
+    modId = "neoforge"
+    mandatory = true
+    type = "required"
+    versionRange = "[21.1,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.smartlogistics]]
+    modId = "create"
+    mandatory = true
+    type = "required"
+    versionRange = "[6,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.smartlogistics]]
+    modId = "minecraft"
+    mandatory = true
+    type = "required"
+    versionRange = "[1.21.1,1.22)"
+    ordering = "NONE"
+    side = "BOTH"
