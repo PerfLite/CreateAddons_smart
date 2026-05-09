@@ -42,7 +42,7 @@ A directional item pusher that pushes items in the direction it faces.
 
 ## Testing and Bugs
 
-The mod has been tested, but not 100%. Bugs and unexpected behavior are possible. If you find any issues, please report them to the author.
+The mod has been tested, but not 100% complete. Bugs and unexpected behavior are possible. If you find any issues, please report them to me.
 
 ## License
 
