@@ -101,6 +101,10 @@ public class HorizontalItemPusherMenu extends AbstractContainerMenu {
                         }
                     }
                 } else if (!currentFilter.isEmpty()) {
+                    // Return FilterItem to hand; regular items are ghost and disappear
+                    if (currentFilter.getItem() instanceof FilterItem) {
+                        this.setCarried(currentFilter.copy());
+                    }
                     filterSlot.set(ItemStack.EMPTY);
                     filterSlot.setChanged();
                 }
@@ -120,7 +124,13 @@ public class HorizontalItemPusherMenu extends AbstractContainerMenu {
         ItemStack stack = slot.getItem();
 
         if (index == 0) {
-            // Moving FROM filter slot - just clear it (ghost item)
+            // Moving FROM filter slot
+            if (stack.getItem() instanceof FilterItem) {
+                // Try to move FilterItem to player inventory
+                if (!this.moveItemStackTo(stack.copy(), 1, this.slots.size(), true)) {
+                    return ItemStack.EMPTY;
+                }
+            }
             slot.set(ItemStack.EMPTY);
             slot.setChanged();
             return ItemStack.EMPTY;

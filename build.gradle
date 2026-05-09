@@ -13,6 +13,7 @@ repositories {
     mavenCentral()
     maven { url = "https://maven.createmod.net" }
     maven { url = "https://maven.tterrag.com" }
+    maven { url = "https://api.modrinth.com/maven" }
 }
 
 dependencies {
@@ -20,6 +21,7 @@ dependencies {
     implementation ("com.simibubi.create:create-1.21.1:6.0.10-280") {
         transitive = false
     }
+    compileOnly "maven.modrinth:jade:15.9.2+neoforge"
 }
 
 tasks.withType(JavaCompile).configureEach {

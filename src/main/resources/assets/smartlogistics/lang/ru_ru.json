@@ -1,5 +1,7 @@
 {
   "block.smartlogistics.horizontal_item_pusher": "Горизонтальный жёлоб",
   "container.smartlogistics.horizontal_item_pusher": "Горизонтальный жёлоб",
-  "itemGroup.smartlogistics": "Create: Smart Logistics"
+  "itemGroup.smartlogistics": "Create: Smart Logistics",
+  "jade.smartlogistics.filter": "Фильтр: ",
+  "config.jade.plugin_smartlogistics.horizontal_item_pusher": "Горизонтальный жёлоб"
 }

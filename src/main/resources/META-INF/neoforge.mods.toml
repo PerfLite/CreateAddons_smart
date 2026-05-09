@@ -5,8 +5,9 @@ license = "MIT"
 [[mods]]
 modId = "smartlogistics"
 displayName = "Create: Smart Logistics"
-version = "1.0"
+version = "1.1"
 authors = "PerfLite"
+logoFile = "icon.png"
 description = "A mod that adds horizontal movement of objects."
 
 [[dependencies.smartlogistics]]
