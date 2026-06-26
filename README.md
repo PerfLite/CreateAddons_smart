@@ -46,4 +46,4 @@ The mod has been tested, but not 100% complete. Bugs and unexpected behavior are
 
 ## License
 
-MIT
+GPL-3.0
